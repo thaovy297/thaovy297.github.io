@@ -1,0 +1,35 @@
+/* CSS Document */
+
+.img-1{
+	background-image: url("images/bg-masthead.jpg");
+	background-size:cover;
+}
+
+.br-1 {
+	height:500%;
+}
+
+.text-1 {
+	padding: 10%;
+}
+
+
+.icon-1 {
+	font-size:500%;
+}
+.text-resize {
+	font-size: 20%;
+}
+
+.text-2 {
+	margin:0px auto;
+}
+
+.list {
+	display: inline-block;
+	padding-right: 5%
+}
+
+.icon-2 {
+	font-size:200% 
+}
