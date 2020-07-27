@@ -4,6 +4,11 @@
 	background-image: url("images/bg-masthead.jpg");
 	background-size:cover;
 }
+.img-2{
+	background-image: url("images/bg-masthead.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+}
 
 .br-1 {
 	height:500%;
