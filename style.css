@@ -1,8 +1,18 @@
 /* CSS Document */
 
+body{
+	font-family:Lato, 'Lato Black', 'Lato Heavy', 'Lato Light', 'Lato Medium', 'Lato Semibold', 'Lato Thin';
+}
+.row{
+	margin-left: 0px !important;
+	margin-right: 0px !important ;
+}
 .img-1{
+	position: relative;
 	background-image: url("images/bg-masthead.jpg");
 	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .img-2{
 	background-image: url("images/bg-masthead.jpg");
@@ -23,7 +33,8 @@
 	font-size:500%;
 }
 .text-resize {
-	font-size: 20%;
+	font-size: 25%;
+	font-weight: 300
 }
 
 .text-2 {
@@ -32,9 +43,60 @@
 
 .list {
 	display: inline-block;
-	padding-right: 5%
+	padding-right: 3%
 }
 
 .icon-2 {
 	font-size:200% 
 }
+
+.zoom {
+	transition: transform .2s;
+}
+.dark {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.4;
+}
+.container-fluid{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.font-size {
+	font-size: 300%;
+}
+
+.parent:hover .zoom,
+.parent:focus .zoom{
+	transform: scale(1.25)
+}
+
+.pad-text {
+	padding:100px;
+}
+
+
+.text-decorate p{
+	font-size:120%;
+	font-weight: 300;
+}
+
+.padding-y {
+	padding-bottom: 6%;
+	padding-top: 6%;
+}
+
+.text-decorate-3 {
+	font-size:80%;
+}
+
+.list-2 {
+	display: inline-block;
+	padding-right: 5%;
+	font-size: 200%;
+	
+}
+

@@ -21,24 +21,25 @@
 <div class="navbar navbar-light bg-light">
   <div class="container">
     <a class="navbar-brand" href="#">Vy Tran</a>
-    <button class="btn btn-primary" type="button" id="Sign-in-btn">Sign in</button>
+    <button class="btn btn-primary" type="button" id="Sign-in-btn">Sign In</button>
   </div>
 </div>
 <!--body-->
 <div class="container-fluid img-1">
+	<div class="dark"></div>
   <div class="row text-center text-1">
-	  <div class="col-2"></div>
-	  <div class="col-8 mt-5">
-		  <h1 class="text-white">Build a landing page for your business or project and generate more leads!</h1>
+	  <div class="col-md-9 mt-5 mx-auto">
+		  <h1 class="text-white font-weight-bold font-size">Build a landing page for your business or project and generate more leads!</h1>
 		  <form>
-			  <div class="row p-5">
-				  <div class="col-9">
-                    <input type="email" class="form-control" placeholder="Enter your Email..." id="sign-up" name="email">
-                  </div>
-				  <div class="col-3">
-					  <button class="btn btn-primary col-12" type="button" id="sign-up-btn">Sign up !</button>
-				  </div>
-			  </div>       
+			<div class="row p-5 justify-content-center">
+				<div class="col-md-8">
+              		<input type="email" class="form-control form-control-lg" placeholder="Enter your Email..." id="sign-up" name="email">
+				</div>
+				<div class="col-md-3">
+              		<button class="btn btn-primary btn-lg col-12" type="button" id="sign-up-btn">Sign up !</button>
+				</div>
+				
+			</div>
           </form>
 		  </div>
 	  </div>
@@ -47,18 +48,18 @@
 	<div class="container-fluid bg-light p-5">
 	<div class="container">
 		<div class="row">
-			<div class="col-4 icon-1 text-center p-3">
-				<i class="fa fa-desktop text-primary"></i>
+			<div class="col-4 icon-1 text-center p-3 parent">
+				<i class="fa fa-desktop text-primary zoom"></i>
 				<h2>Fully Responsive</h2>
 				<p class="text-resize">This theme will look great on any device, no matter the size!</p>
 			</div>
-			<div class="col-4 icon-1 text-center p-3">
-				<i class="fa fa-database text-primary"></i>
+			<div class="col-4 icon-1 text-center p-3 parent ">
+				<i class="fa fa-database text-primary zoom"></i>
 				<h2>Bootstrap 4 Ready</h2>
 				<p class="text-resize">Featuring the latest build of the new Bootstrap 4 framework!</p>
 			</div>
-			<div class="col-4 icon-1 text-center p-3">
-				<i class="fa fa-check-circle-o text-primary"></i>
+			<div class="col-4 icon-1 text-center p-3 parent">
+				<i class="fa fa-check-circle-o text-primary zoom "></i>
 				<h2>Easy to Use</h2>
 				<p class="text-resize">Ready to use with your own content, or customize the source files!</p>
 			</div>
@@ -67,10 +68,10 @@
     </div>
 <!--content-->
 	<div class="container-fluid">
-		<div class="row no-gutters">
-			<div class="col-6 p-5 my-auto">
-				<h1>Fully Responsive Design</h1>
-				<p>When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+		<div class="row row-2 no-gutters">
+			<div class="col-6 my-auto p-5 text-decorate">
+				<h2><b>Fully Responsive Design</b></h2>
+				<p>When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively! When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
 			</div>
 			<div class="col-6">
 				<img src="images/bg-showcase-1.jpg" width="100%">
@@ -78,13 +79,13 @@
 			<div class="col-6">
 				<img src="images/bg-showcase-2.jpg" width="100%">
 			</div>
-			<div class="col-6 p-5 my-auto">
-				<h1>Updated For Bootstrap 4</h1>
+			<div class="col-6 p-5 my-auto text-decorate">
+				<h2><b>Updated For Bootstrap 4</b></h2>
 				<p>Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
 			</div>
 			
-			<div class="col-6 p-5 my-auto">
-				<h1> Easy to Use & Customize</h1>
+			<div class="col-6 p-5 my-auto text-decorate">
+				<h2><b> Easy to Use & Customize</b></h2>
 				<p>Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
 			</div>
 			<div class="col-6">
@@ -94,42 +95,48 @@
 	</div>
 <!--what people say..-->
 	<div class="container-fluid text-center bg-light">
-		<div class="container pt-5">
-		<h1>What people are saying...</h1>
-		<div class="row">
-			<div class="col-4 p-5">
-				<img src="images/testimonials-1.jpg" class="rounded-circle shadow" width="80%">
-				<h3>Margaret E.</h3>
-				<p>"This is fantastic! Thanks so much guys!"</p>
+		<div class="container padding-y">
+		<h2><b>What people are saying...</b></h2>
+		<div class="row justify-content-around pt-5">
+			<div class="col-3">
+				<img src="images/testimonials-1.jpg" class="rounded-circle shadow mb-2" width="80%">
+				<h5><b>Margaret E.</b></h5>
+				<p class="font-weight-light">"This is fantastic! Thanks so much guys!"</p>
 			</div>
-			<div class="col-4 p-5">
-				<img src="images/testimonials-2.jpg" class="rounded-circle shadow" width="80%">
-				<h3>Margaret E.</h3>
-				<p>"This is fantastic! Thanks so much guys!"</p>
+			<div class="col-3">
+				<img src="images/testimonials-2.jpg" class="rounded-circle shadow mb-2" width="80%">
+				<h5><b>Fred S.</b></h5>
+				<p class="font-weight-light">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
 			</div>
-			<div class="col-4 p-5">
-				<img src="images/testimonials-3.jpg" class="rounded-circle shadow" width="80%">
-				<h3>Margaret E.</h3>
-				<p>"This is fantastic! Thanks so much guys!"</p>
+			<div class="col-3">
+				<img src="images/testimonials-3.jpg" class="rounded-circle shadow mb-2" width="80%">
+				<h5><b>Sarah W.</b></h5>
+				<p class="font-weight-light">"Thanks so much for making these free resources available to us!"</p>
 			</div>
 		</div>
 		</div>
 	</div>
 <!--Sign-up-->
-	<div class="container-fluid img-1 text-center text-white p-5">
-		<h3>Ready to get started? Sign up now!</h3>
-		<div class="row mt-4">
-			<div class="col-3"></div>
-				  <div class="col-4">
-                    <input type="email" class="form-control" placeholder="Enter your Email..." id="sign-up-2" name="email">
-                  </div>
-				  <div class="col-2">
-					  <button class="btn btn-primary col-10" type="button" id="sign-up-btn-2">Sign up !</button>
-				  </div>
-			  </div>       
-	</div>
+	<div class="container-fluid img-1">
+	<div class="dark"></div>
+  <div class="row text-center p-5">
+	  <div class="col-md-8 mt-5 mx-auto">
+		  <h2 class="text-white font-weight-bold">Ready to get started? Sign up now!</h2>
+		  <form>
+			<div class="row pt-3 pb-5 justify-content-center">
+				<div class="col-md-6">
+              		<input type="email" class="form-control form-control-lg" placeholder="Enter your Email..." id="sign-up-2" name="email">
+				</div>
+				<div class="col-md-2">
+              		<button class="btn btn-primary btn-lg col-12" type="button" id="sign-up-btn-2">Sign up !</button>
+				</div>
+			</div>
+          </form>
+		  </div>
+	  </div>
+  </div>
 <!--footer-->
-	<div class="container-fluid bg-light">
+	<div class="container-fluid bg-light pb-5">
 		<div class="container">
 		<div class="row pt-5 justify-content-between">
 			<div class="col-6">
@@ -150,26 +157,26 @@
 						<a href="#">Privacy Policy</a>
 					</li>
 				</ul>
-				<p>© Your Website 2020. All Rights Reserved.</p>
+				<p class="text-secondary text-decorate-3">© Your Website 2020. All Rights Reserved.</p>
 			</div>
-			<div class="col-1 text-center">
-				<div class="row">
-					<div class="col-4 icon-2 text-primary pr-2">
+			<div class="col-5 text-right">
+				<ul class="list-inline">
+					<li class="list-2"> 
 						<a href="#">
-                          <i class="fa fa-facebook-official"></i>
+							<i class="fa fa-facebook-official"></i>
 						</a>
-					</div>
-					<div class="col-4 icon-2 text-primary pr-2">
+					</li>
+					<li class="list-2"> 
 						<a href="#">
-                          <i class="fa fa-twitter-square"></i>
+							<i class="fa fa-twitter-square"></i>
 						</a>
-					</div>
-					<div class="col-4 icon-2 text-primary pr-2">
+					</li>
+					<li class="list-2"> 
 						<a href="#">
-                          <i class="fa fa-instagram" ></i>
+							<i class="fa fa-instagram" ></i>
 						</a>
-					</div>
-				</div>
+					</li>
+				</ul>
 			</div>
 		</div>
 		</div>
