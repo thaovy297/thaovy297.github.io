@@ -83,20 +83,33 @@ body{
 	font-size:120%;
 	font-weight: 300;
 }
-
 .padding-y {
 	padding-bottom: 6%;
 	padding-top: 6%;
 }
-
 .text-decorate-3 {
 	font-size:80%;
 }
-
 .list-2 {
 	display: inline-block;
 	padding-right: 5%;
 	font-size: 200%;
-	
+}
+@media (max-width:768px){
+	.font-size{
+		font-size: 200%;
+	}	
+	.media-fix{
+		margin-top: 3%;
+	}
+	.icon-1{
+		font-size: 400%;
+	}
+	.icon-1 h2{
+		font-size:50%;
+	}
+	.text-decorate p{
+		font-size:100%;
+	}
 }
 
