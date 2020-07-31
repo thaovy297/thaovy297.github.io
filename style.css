@@ -111,5 +111,8 @@ body{
 	.text-decorate p{
 		font-size:100%;
 	}
+	.text-decorate{
+		padding: 10%;
+	}
 }
 
