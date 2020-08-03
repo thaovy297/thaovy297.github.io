@@ -116,3 +116,16 @@ body{
 	}
 }
 
+
+#mybtn {
+	display: none;
+	position: fixed;
+	z-index: 99;
+	cursor: pointer;
+	bottom: 30px;
+	right:30px;
+	transition: transform .2s;
+}
+#mybtn:hover{
+	transform: scale(1.25);
+}

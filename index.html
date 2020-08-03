@@ -17,6 +17,10 @@
    href="style.css">
 </head>
 <body>
+<!--back to top-->
+	<button onClick="topFunction()" id="mybtn" title="back to top" class="btn btn-primary align-self-end">
+		<i class="fa fa-chevron-up" aria-hidden="true"></i>
+	</button>
 <!--navbar-->
 <div class="navbar navbar-light bg-light static-top">
   <div class="container">
@@ -128,7 +132,7 @@
               		<input type="email" class="form-control form-control-lg" placeholder="Enter your Email..." id="sign-up-2" name="email">
 				</div>
 				<div class="col-md-3 col-12 media-fix">
-              		<button class="btn btn-primary btn-lg btn-block" type="button" id="sign-up-btn-2">Sign up !</button>
+              		<button class="btn btn-primary btn-lg btn-block" type="button" id="sign-up-btn-2">Sign up!</button>
 				</div>
 			</div>
           </form>
@@ -181,5 +185,29 @@
 		</div>
 		</div>
 	</div>
+	<!--script-->
+	<script>
+	
+    //Get the button
+    var mybutton = document.getElementById("mybtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    
+	</script>
 </body>
 </html>
