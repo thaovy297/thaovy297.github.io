@@ -117,15 +117,15 @@ body{
 }
 
 
-#mybtn {
+.btn-decor {
 	display: none;
 	position: fixed;
 	z-index: 99;
 	cursor: pointer;
-	bottom: 30px;
+	bottom: 20px;
 	right:30px;
 	transition: transform .2s;
 }
-#mybtn:hover{
+.btn-decor:hover{
 	transform: scale(1.25);
 }
